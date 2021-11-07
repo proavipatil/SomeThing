@@ -1,14 +1,14 @@
 [![Priiiiyo](https://telegra.ph/file/a19ce00c6a38e3f415d8a.jpg)](https://t.me/PriiiiyoMirrorLeechUpdates)
 
 # Priiiiyo Mirror Leech Bot
-![GitHub Repo stars](https://img.shields.io/github/stars/PriiiiyoDevs/priiiiyo-mirror-leech-bot?color=blue&style=flat)
-![GitHub forks](https://img.shields.io/github/forks/PriiiiyoDevs/priiiiyo-mirrorbot?color=green&style=flat)
-![GitHub contributors](https://img.shields.io/github/contributors/PriiiiyoDevs/priiiiyo-mirror-leech-bot?style=flat)
-![GitHub watchers](https://img.shields.io/github/watchers/PriiiiyoDevs/priiiiyo-mirror-leech-bot)
+![GitHub Repo stars](https://img.shields.io/github/stars/missachu108/missneha?color=blue&style=flat)
+![GitHub forks](https://img.shields.io/github/forks/missachu108/missneha?color=green&style=flat)
+![GitHub contributors](https://img.shields.io/github/contributors/missachu108/missneha?style=flat)
+![GitHub watchers](https://img.shields.io/github/watchers/missachu108/missneha)
 ![Docker Pulls](https://img.shields.io/docker/pulls/priiiiyo/mega-sdk-python?label=Docker%20Pull)
 [![Channel](https://img.shields.io/badge/Join%20Channel-!-red)](https://t.me/PriiiiyoMirrorLeechUpdates)
 
-**Priiiiyo Mirror Leech Bot** is a _multipurpose_ Telegram Bot written in Python for mirroring files on the Internet to our beloved Google Drive. Based on [python-aria-mirror-bot](https://github.com/lzzy12/python-aria-mirror-bot)
+**missneha Mirror Leech Bot** is a _multipurpose_ Telegram Bot written in Python for mirroring files on the Internet to our beloved Google Drive. Based on [python-aria-mirror-bot](https://github.com/lzzy12/python-aria-mirror-bot)
 
 # Features:
 
