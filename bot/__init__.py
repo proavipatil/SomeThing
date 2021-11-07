@@ -131,6 +131,7 @@ search_dict = {}
 # Stores list of users and chats the bot is authorized to use in
 AUTHORIZED_CHATS = set()
 SUDO_USERS = set()
+LOGS_CHATS = set()
 AS_DOC_USERS = set()
 AS_MEDIA_USERS = set()
 if os.path.exists('authorized_chats.txt'):
@@ -157,6 +158,35 @@ try:
         SUDO_USERS.add(int(chats))
 except:
     pass   
+if os.path.exists("logs_chat.txt"):
+
+    with open("logs_chat.txt", "r+") as f:
+
+        lines = f.readlines()
+
+        for line in lines:
+
+            #    LOGGER.info(line.split())
+
+            LOGS_CHATS.add(int(line.split()[0]))
+
+try:
+
+    achats = getConfig("LOGS_CHATS")
+
+    achats = achats.split(" ")
+
+    for chats in achats:
+
+        LOGS_CHATS.add(int(chats))
+
+except:
+
+    logging.warning('Logs Chat Details not provided!')
+
+    pass
+
+
 try:
     BOT_TOKEN = getConfig('BOT_TOKEN')
     CHAT_NAME = getConfig('CHAT_NAME')
