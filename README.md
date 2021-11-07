@@ -1,6 +1,6 @@
-[![Priiiiyo](https://telegra.ph/file/a19ce00c6a38e3f415d8a.jpg)](https://t.me/TheEmpireGroup)
+[![Team Empire](https://telegra.ph/file/e626d42db02390ef39ff9.jpg)](https://t.me/TheEmpireGroup)
 
-# Priiiiyo Mirror Leech Bot
+# Missneha Mirror Leech Bot
 ![GitHub Repo stars](https://img.shields.io/github/stars/missachu108/missneha?color=blue&style=flat)
 ![GitHub forks](https://img.shields.io/github/forks/missachu108/missneha?color=green&style=flat)
 ![GitHub contributors](https://img.shields.io/github/contributors/missachu108/missneha?style=flat)
@@ -15,6 +15,8 @@
 ## By PriiiiyoDevs
 - qBittorrent
 - Rss feed reader
+- Log channel (Added Logs Group Support So Bot Forwards Messages Of Mirror And Clones To Other Group.
+It Will Show All Files Uploaded With Bot Even In Private Chat)
 - Select files from Torrent before downloading using qbittorrent
 - Leech (splitting, thumbnail for each user, setting as document or as media for each user)
 - Size limiting for Torrent/Direct, Zip/Unzip, Mega and Clone
@@ -377,7 +379,7 @@ Where host is the name of extractor (eg. Youtube, Twitch). Multiple accounts of 
 # Credits
 
 Thanks to:
-- [`priiiiyo`](https://github.com/priiiiyo) for custom mod 👨‍🦰
+- [`gigameher473`](https://github.com/gigameher473) for custom mod 👨‍🦰
 - [`out386`](https://github.com/out386) heavily inspired from his Telegram Bot written in Typescript
 - [`Izzy12`](https://github.com/lzzy12) for build up of this bot from scratch
 - [`jaskaranSM`](https://github.com/jaskaranSM) for build up of this bot from scratch
