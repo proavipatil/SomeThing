@@ -305,6 +305,7 @@ class MirrorListener(listeners.MirrorListeners):
                             msg1 = f'<b>File Uploaded: </b> <code>{download_dict[self.uid].name()}</code>\n'
 
                             msg1 += f'<b>By: </b>{uname}\n'
+                            msg1 += f'<b>Logs By PeruNoob</b>'
 
                             bot.sendMessage(chat_id=i, text=msg1, reply_markup=InlineKeyboardMarkup(buttons.build_menu(2)), parse_mode=ParseMode.HTML)
 
