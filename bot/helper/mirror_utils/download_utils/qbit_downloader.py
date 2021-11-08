@@ -197,7 +197,7 @@ class QbitTorrent:
                             self.updater.cancel()     
                     self.sizechecked = True
             elif tor_info.state == "stalledDL":
-                if time.time() - self.stalled_time >= 999999999: # timeout after downloading metadata
+                if time.time() - self.stalled_time >=  1200: # timeout after downloading metadata
                     self.client.torrents_pause(torrent_hashes=self.ext_hash)
                     time.sleep(0.3)
                     self.listener.onDownloadError("Dead Torrent!")
