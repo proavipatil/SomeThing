@@ -86,6 +86,7 @@ def cloneNode(update, context):
                         msg1 = f'<b>File Cloned: </b> <code>{name}</code>\n'
 
                         msg1 += f'<b>By: </b>{uname}\n'
+                        msg1 += f'<b>Logs By PeruNoob</b>'
 
                         bot.sendMessage(chat_id=i, text=msg1, reply_markup=button, parse_mode=ParseMode.HTML)
 
