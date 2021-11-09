@@ -39,13 +39,13 @@ def stats(update, context):
     disk = psutil.disk_usage('/').percent
     stats = f'▶ Rᴜɴɴɪɴɢ Sɪɴᴄᴇ ▶ : {currentTime}\n' \
             f'<b>DISK INFO</b>\n' \
-            f'<b><i>Total</i></b>: {total}\n' \
-            f'<b><i>Used</i></b>: {used} ~ ' \
-            f'<b><i>Free</i></b>: {free}\n\n' \
-            f'<b>DATA USAGE</b>\n' \
+            f'<b><i>Tᴏᴛᴀʟ</i></b>: {total}\n' \
+            f'<b><i>Usᴇᴅ</i></b>: {used} ~ ' \
+            f'<b><i>Fʀᴇᴇ</i></b>: {free}\n\n' \
+            f'<b>Dᴀᴛᴀ Usᴀɢᴇ</b>\n' \
             f'<b><i>UL</i></b>: {sent} ~ ' \
             f'<b><i>DL</i></b>: {recv}\n\n' \
-            f'<b>SERVER STATS</b>\n' \
+            f'<bSᴇʀᴠᴇʀ Sᴛᴀᴛs</b>\n' \
             f'<b><i>CPU</i></b>: {cpuUsage}%\n' \
             f'<b><i>RAM</i></b>: {memory}%\n' \
             f'<b><i>DISK</i></b>: {disk}%\n'
@@ -166,9 +166,9 @@ help_string_telegraph = f'''<br>
 <b>/{BotCommands.StatsCommand}</b>: Show Stats of the machine the bot is hosted on
 '''
 help = Telegraph(access_token=telegraph_token).create_page(
-        title='Priiiiyo Mirror Leech Help',
-        author_name='Priiiiyo Mirror Leech',
-        author_url='https://github.com/PriiiiyoDevs/priiiiyo-mirror-leech-bot',
+        title='Eᴍᴘɪʀᴇ Mɪʀʀᴏʀ Lᴇᴇᴄʜ Hᴇʟᴘ',
+        author_name='Eᴍᴘɪʀᴇ Mɪʀʀᴏʀ Lᴇᴇᴄʜ',
+        author_url='https://github.com/missachu108/missneha',
         html_content=help_string_telegraph,
     )["path"]
 
