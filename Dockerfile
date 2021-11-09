@@ -14,4 +14,6 @@ COPY .netrc /root/.netrc
 RUN chmod 600 /usr/src/app/.netrc
 RUN chmod +x aria.sh
 
+RUN pip3 install yt-dlp
+
 CMD ["bash","start.sh"]
