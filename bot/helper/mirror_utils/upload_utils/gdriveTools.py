@@ -377,7 +377,7 @@ class GoogleDriveHelper:
                     LOGGER.info(f"{msg}")
                     return "your clone has been stopped and cloned data has been deleted!", "cancelled"
                 msg += f'<b>🗂️ Fɪʟᴇɴᴀᴍᴇ : </b><code>{meta.get("name")}</code>\n<b>📦 Sɪᴢᴇ : </b><code>{get_readable_file_size(self.transferred_size)}</code>'
-                msg += f'\n<b>⚙️ ᴛʏᴘᴇ : </b><code>Folder</code>'
+                msg += f'\n<b>⚙️ Tʏᴘᴇ : </b><code>Folder</code>'
                 msg += f'\n<b>📚 Sᴜʙꜰᴏʟᴅᴇʀꜱ : </b><code>{self.total_folders}</code>'
                 msg += f'\n<b>📁 Fɪʟᴇꜱ : </b><code>{self.total_files}</code>'
                 buttons = button_build.ButtonMaker()
